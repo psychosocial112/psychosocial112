@@ -11,19 +11,18 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    height: 100vh;
 
 }
 .content {
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- height: 100%;
- max-width: 1220px;
- margin-right: auto;
- margin-left: auto;
- gap: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 920px;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 64px;
 }
 .content .logo {
     max-width: 390px;
@@ -40,7 +39,7 @@ body {
     height: 260px;
     width: 260px;
     border-left: 12px solid #07a3e9;
-border-bottom: 12px solid #07a3e9;
+    border-bottom: 12px solid #07a3e9;
 }
 .card .profile .contact {
     color: #afb4c5;
@@ -64,4 +63,24 @@ border-bottom: 12px solid #07a3e9;
     font-weight: 400;
     color: #afb4c5;
     margin: 0;
+}
+.blocks {
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+}
+.block {
+    padding: 15px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    width: 435px;
+} 
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+span, dt {
+    font-weight: 600;
 }
