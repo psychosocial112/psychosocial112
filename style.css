@@ -75,12 +75,9 @@ body {
     padding: 15px;
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
     width: 435px;
+    margin-bottom: 64px;
 } 
-.column {
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
-}
+
 span, dt {
     font-weight: 600;
 }
